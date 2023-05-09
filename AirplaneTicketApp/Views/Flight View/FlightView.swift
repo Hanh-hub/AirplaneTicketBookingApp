@@ -60,16 +60,12 @@ struct FlightView: View {
                         .frame(height: 320)
                         .padding(.bottom, 50)
                     }
-                    .padding(.horizontal, 25)
-                    .formatVStack()
                     .toolbar{
                         ToolbarItem(placement: .navigationBarLeading){
                             Text("Hi \(userName) !")
-                                .padding(.horizontal,25)
                         }
                         ToolbarItem(placement: .navigationBarTrailing){
                             Image(systemName: "lineweight")
-                                .padding(.horizontal,25)
                                 .onTapGesture {
                                     withAnimation {
                                         showMenu.toggle()
@@ -83,6 +79,8 @@ struct FlightView: View {
                        .transition(.move(edge: .leading))
                 }
             }
+            .padding(.horizontal,20)
+            .formatVStack()
         }
     }
 }

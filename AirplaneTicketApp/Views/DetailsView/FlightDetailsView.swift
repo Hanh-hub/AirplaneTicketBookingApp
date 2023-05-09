@@ -42,8 +42,8 @@ struct FlightDetailsView: View {
                 
                 
                 VStack(alignment: .leading){
-                    DatePickerView(datePickerDisabled: .constant(true), selectDate: $viewModel.departDate, rotation: -45)
-                    DatePickerView(datePickerDisabled: $viewModel.roundTrip, selectDate: $viewModel.returnDate, rotation: 45)
+                    DatePickerView(datePickerEnable: .constant(true), selectDate: $viewModel.departDate, rotation: -45)
+                    DatePickerView(datePickerEnable: $viewModel.roundTrip, selectDate: $viewModel.returnDate, rotation: 45)
                 }
                 .formatContainer(height: 120)
                 .padding(.vertical,10)
