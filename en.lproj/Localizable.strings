@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  AirplaneTicketApp
+
+  Created by Hanh Vo on 5/8/23.
+  
+*/
+/* English Localization */
+"hello_world" = "Hello, world!";
+"discover_best_dates" = "Discover Best Dates To Fly";
+"find_flights" = "Find flights that suit your timing and budget";

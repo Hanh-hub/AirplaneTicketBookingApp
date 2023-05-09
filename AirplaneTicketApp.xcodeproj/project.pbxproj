@@ -14,6 +14,29 @@
 		FDC51FF12A094C12001ED4E9 /* AirplaneTicketAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC51FF02A094C12001ED4E9 /* AirplaneTicketAppTests.swift */; };
 		FDC51FFB2A094C12001ED4E9 /* AirplaneTicketAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC51FFA2A094C12001ED4E9 /* AirplaneTicketAppUITests.swift */; };
 		FDC51FFD2A094C12001ED4E9 /* AirplaneTicketAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC51FFC2A094C12001ED4E9 /* AirplaneTicketAppUITestsLaunchTests.swift */; };
+		FDC5200F2A0952EA001ED4E9 /* TourModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5200E2A0952EA001ED4E9 /* TourModel.swift */; };
+		FDC520112A0953FF001ED4E9 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520102A0953FF001ED4E9 /* GetStartedView.swift */; };
+		FDC5201F2A096034001ED4E9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC520212A096034001ED4E9 /* Localizable.strings */; };
+		FDC520242A0964FF001ED4E9 /* TourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520232A0964FF001ED4E9 /* TourView.swift */; };
+		FDC520272A097A49001ED4E9 /* ViewModifers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520262A097A49001ED4E9 /* ViewModifers+Extensions.swift */; };
+		FDC520292A097AEB001ED4E9 /* FlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520282A097AEB001ED4E9 /* FlightView.swift */; };
+		FDC5202B2A097D0F001ED4E9 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5202A2A097D0F001ED4E9 /* FormView.swift */; };
+		FDC520302A098DF2001ED4E9 /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5202F2A098DF1001ED4E9 /* FlightDetailsView.swift */; };
+		FDC520322A098E2A001ED4E9 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520312A098E2A001ED4E9 /* RouteView.swift */; };
+		FDC520342A09952D001ED4E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520332A09952D001ED4E9 /* Constants.swift */; };
+		FDC520382A099673001ED4E9 /* AirportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520372A099673001ED4E9 /* AirportView.swift */; };
+		FDC5203A2A09A83C001ED4E9 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520392A09A83C001ED4E9 /* DatePickerView.swift */; };
+		FDC5203C2A09C480001ED4E9 /* RoundTripToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5203B2A09C480001ED4E9 /* RoundTripToggleView.swift */; };
+		FDC5203E2A09C5DE001ED4E9 /* TicketClassPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5203D2A09C5DE001ED4E9 /* TicketClassPickerView.swift */; };
+		FDC520412A09DCB3001ED4E9 /* FlightSummaryLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520402A09DCB3001ED4E9 /* FlightSummaryLine.swift */; };
+		FDC520432A09DD08001ED4E9 /* RouteOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520422A09DD08001ED4E9 /* RouteOptionView.swift */; };
+		FDC520452A0A029D001ED4E9 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520442A0A029D001ED4E9 /* BackButton.swift */; };
+		FDC520492A0A05D3001ED4E9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520482A0A05D3001ED4E9 /* ViewModel.swift */; };
+		FDC5204D2A0A0C79001ED4E9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC5204C2A0A0C79001ED4E9 /* CustomButton.swift */; };
+		FDC5204F2A0A113E001ED4E9 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = FDC5204E2A0A113E001ED4E9 /* Fonts */; };
+		FDC520542A0A2152001ED4E9 /* MenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520532A0A2152001ED4E9 /* MenuItemView.swift */; };
+		FDC520562A0A221B001ED4E9 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC520552A0A221B001ED4E9 /* SideMenuView.swift */; };
+		FDDA480A2A0A276A00270128 /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDA48092A0A276A00270128 /* ToolBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +67,30 @@
 		FDC51FF62A094C12001ED4E9 /* AirplaneTicketAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirplaneTicketAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC51FFA2A094C12001ED4E9 /* AirplaneTicketAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneTicketAppUITests.swift; sourceTree = "<group>"; };
 		FDC51FFC2A094C12001ED4E9 /* AirplaneTicketAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirplaneTicketAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDC5200E2A0952EA001ED4E9 /* TourModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourModel.swift; sourceTree = "<group>"; };
+		FDC520102A0953FF001ED4E9 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		FDC520202A096034001ED4E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDC520222A096037001ED4E9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDC520232A0964FF001ED4E9 /* TourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourView.swift; sourceTree = "<group>"; };
+		FDC520262A097A49001ED4E9 /* ViewModifers+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModifers+Extensions.swift"; sourceTree = "<group>"; };
+		FDC520282A097AEB001ED4E9 /* FlightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightView.swift; sourceTree = "<group>"; };
+		FDC5202A2A097D0F001ED4E9 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		FDC5202F2A098DF1001ED4E9 /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+		FDC520312A098E2A001ED4E9 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		FDC520332A09952D001ED4E9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FDC520372A099673001ED4E9 /* AirportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportView.swift; sourceTree = "<group>"; };
+		FDC520392A09A83C001ED4E9 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		FDC5203B2A09C480001ED4E9 /* RoundTripToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundTripToggleView.swift; sourceTree = "<group>"; };
+		FDC5203D2A09C5DE001ED4E9 /* TicketClassPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketClassPickerView.swift; sourceTree = "<group>"; };
+		FDC520402A09DCB3001ED4E9 /* FlightSummaryLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSummaryLine.swift; sourceTree = "<group>"; };
+		FDC520422A09DD08001ED4E9 /* RouteOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteOptionView.swift; sourceTree = "<group>"; };
+		FDC520442A0A029D001ED4E9 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		FDC520482A0A05D3001ED4E9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FDC5204C2A0A0C79001ED4E9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FDC5204E2A0A113E001ED4E9 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		FDC520532A0A2152001ED4E9 /* MenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemView.swift; sourceTree = "<group>"; };
+		FDC520552A0A221B001ED4E9 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		FDDA48092A0A276A00270128 /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +121,7 @@
 		FDC51FD32A094C10001ED4E9 = {
 			isa = PBXGroup;
 			children = (
+				FDC520212A096034001ED4E9 /* Localizable.strings */,
 				FDC51FDE2A094C10001ED4E9 /* AirplaneTicketApp */,
 				FDC51FEF2A094C12001ED4E9 /* AirplaneTicketAppTests */,
 				FDC51FF92A094C12001ED4E9 /* AirplaneTicketAppUITests */,
@@ -94,9 +142,13 @@
 		FDC51FDE2A094C10001ED4E9 /* AirplaneTicketApp */ = {
 			isa = PBXGroup;
 			children = (
+				FDC520472A0A05C6001ED4E9 /* ViewModel */,
+				FDC520252A096F39001ED4E9 /* Extension */,
+				FDC5200C2A094C3C001ED4E9 /* Views */,
+				FDC520092A094C28001ED4E9 /* Model */,
 				FDC51FDF2A094C11001ED4E9 /* AirplaneTicketAppApp.swift */,
-				FDC51FE12A094C11001ED4E9 /* ContentView.swift */,
 				FDC51FE32A094C12001ED4E9 /* Assets.xcassets */,
+				FDC5204E2A0A113E001ED4E9 /* Fonts */,
 				FDC51FE52A094C12001ED4E9 /* Preview Content */,
 			);
 			path = AirplaneTicketApp;
@@ -125,6 +177,104 @@
 				FDC51FFC2A094C12001ED4E9 /* AirplaneTicketAppUITestsLaunchTests.swift */,
 			);
 			path = AirplaneTicketAppUITests;
+			sourceTree = "<group>";
+		};
+		FDC520092A094C28001ED4E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FDC5200E2A0952EA001ED4E9 /* TourModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FDC5200C2A094C3C001ED4E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDC51FE12A094C11001ED4E9 /* ContentView.swift */,
+				FDC5204A2A0A0686001ED4E9 /* GetStarted */,
+				FDC5202E2A098D5A001ED4E9 /* Flight View */,
+				FDC520502A0A1C57001ED4E9 /* Menu */,
+				FDC520462A0A03CF001ED4E9 /* DetailsView */,
+				FDC5203F2A09D0D3001ED4E9 /* CaculatedRoute */,
+				FDC5204B2A0A0C4F001ED4E9 /* ResuableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDC520252A096F39001ED4E9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520262A097A49001ED4E9 /* ViewModifers+Extensions.swift */,
+				FDC520332A09952D001ED4E9 /* Constants.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FDC5202E2A098D5A001ED4E9 /* Flight View */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520282A097AEB001ED4E9 /* FlightView.swift */,
+				FDC520232A0964FF001ED4E9 /* TourView.swift */,
+				FDC5202A2A097D0F001ED4E9 /* FormView.swift */,
+				FDDA48092A0A276A00270128 /* ToolBarView.swift */,
+			);
+			path = "Flight View";
+			sourceTree = "<group>";
+		};
+		FDC5203F2A09D0D3001ED4E9 /* CaculatedRoute */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520422A09DD08001ED4E9 /* RouteOptionView.swift */,
+				FDC520402A09DCB3001ED4E9 /* FlightSummaryLine.swift */,
+			);
+			path = CaculatedRoute;
+			sourceTree = "<group>";
+		};
+		FDC520462A0A03CF001ED4E9 /* DetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				FDC5202F2A098DF1001ED4E9 /* FlightDetailsView.swift */,
+				FDC520312A098E2A001ED4E9 /* RouteView.swift */,
+				FDC520372A099673001ED4E9 /* AirportView.swift */,
+				FDC520392A09A83C001ED4E9 /* DatePickerView.swift */,
+				FDC5203B2A09C480001ED4E9 /* RoundTripToggleView.swift */,
+				FDC5203D2A09C5DE001ED4E9 /* TicketClassPickerView.swift */,
+			);
+			path = DetailsView;
+			sourceTree = "<group>";
+		};
+		FDC520472A0A05C6001ED4E9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520482A0A05D3001ED4E9 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FDC5204A2A0A0686001ED4E9 /* GetStarted */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520102A0953FF001ED4E9 /* GetStartedView.swift */,
+			);
+			path = GetStarted;
+			sourceTree = "<group>";
+		};
+		FDC5204B2A0A0C4F001ED4E9 /* ResuableView */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520442A0A029D001ED4E9 /* BackButton.swift */,
+				FDC5204C2A0A0C79001ED4E9 /* CustomButton.swift */,
+			);
+			path = ResuableView;
+			sourceTree = "<group>";
+		};
+		FDC520502A0A1C57001ED4E9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FDC520552A0A221B001ED4E9 /* SideMenuView.swift */,
+				FDC520532A0A2152001ED4E9 /* MenuItemView.swift */,
+			);
+			path = Menu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +363,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = FDC51FD32A094C10001ED4E9;
 			productRefGroup = FDC51FDD2A094C10001ED4E9 /* Products */;
@@ -232,7 +383,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC51FE72A094C12001ED4E9 /* Preview Assets.xcassets in Resources */,
+				FDC5201F2A096034001ED4E9 /* Localizable.strings in Resources */,
 				FDC51FE42A094C12001ED4E9 /* Assets.xcassets in Resources */,
+				FDC5204F2A0A113E001ED4E9 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +411,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC51FE22A094C11001ED4E9 /* ContentView.swift in Sources */,
+				FDC520112A0953FF001ED4E9 /* GetStartedView.swift in Sources */,
+				FDC520272A097A49001ED4E9 /* ViewModifers+Extensions.swift in Sources */,
+				FDC5200F2A0952EA001ED4E9 /* TourModel.swift in Sources */,
+				FDC520322A098E2A001ED4E9 /* RouteView.swift in Sources */,
+				FDC520302A098DF2001ED4E9 /* FlightDetailsView.swift in Sources */,
+				FDC5203A2A09A83C001ED4E9 /* DatePickerView.swift in Sources */,
+				FDC520382A099673001ED4E9 /* AirportView.swift in Sources */,
+				FDC5203E2A09C5DE001ED4E9 /* TicketClassPickerView.swift in Sources */,
+				FDC5203C2A09C480001ED4E9 /* RoundTripToggleView.swift in Sources */,
+				FDC520432A09DD08001ED4E9 /* RouteOptionView.swift in Sources */,
+				FDC5204D2A0A0C79001ED4E9 /* CustomButton.swift in Sources */,
+				FDC520292A097AEB001ED4E9 /* FlightView.swift in Sources */,
+				FDC520342A09952D001ED4E9 /* Constants.swift in Sources */,
+				FDC520542A0A2152001ED4E9 /* MenuItemView.swift in Sources */,
+				FDC520492A0A05D3001ED4E9 /* ViewModel.swift in Sources */,
 				FDC51FE02A094C11001ED4E9 /* AirplaneTicketAppApp.swift in Sources */,
+				FDC520562A0A221B001ED4E9 /* SideMenuView.swift in Sources */,
+				FDC5202B2A097D0F001ED4E9 /* FormView.swift in Sources */,
+				FDC520242A0964FF001ED4E9 /* TourView.swift in Sources */,
+				FDDA480A2A0A276A00270128 /* ToolBarView.swift in Sources */,
+				FDC520412A09DCB3001ED4E9 /* FlightSummaryLine.swift in Sources */,
+				FDC520452A0A029D001ED4E9 /* BackButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +467,18 @@
 			targetProxy = FDC51FF72A094C12001ED4E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC520212A096034001ED4E9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC520202A096034001ED4E9 /* en */,
+				FDC520222A096037001ED4E9 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDC51FFE2A094C12001ED4E9 /* Debug */ = {
@@ -420,6 +606,7 @@
 				DEVELOPMENT_TEAM = 8F2485T5AY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirplaneTicketApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +636,7 @@
 				DEVELOPMENT_TEAM = 8F2485T5AY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirplaneTicketApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -8,16 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @AppStorage("wasOpened") var wasOpened = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        // If the app has not been opened before on this device show GetStartedView
+        if !wasOpened {
+            GetStartedView(wasOpened: $wasOpened)
+        } else {
+            FlightView()
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

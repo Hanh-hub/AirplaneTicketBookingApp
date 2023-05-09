@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  AirplaneTicketApp
+
+  Created by Hanh Vo on 5/8/23.
+  
+*/
+
+/* French Localization */
+"hello_world" = "Bonjour, le monde!";
+"discover_best_dates" = "Découvrez les meilleures dates pour voyager";
+
